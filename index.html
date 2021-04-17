@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/MUSA_timeline.css">
+    <link rel="stylesheet" href="assets/css/MUSA_timeline.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Table.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Table.css">
+    <link rel="stylesheet" href="assets/css/Search-Field-With-Icon.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">Company Name</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="margin:1rem;">
+                <div class="row">
+                    <div class="col" style="width:360px;height:350px;overflow-y:auto;border:groove;border-color:#56c1ba;background-color:#56c1ba;">
+                        <div class="row" style="background-color:#56c1ba;color:#56c1ba;"></div>
+                        <div class="row">
+                            <div class="col" style="margin:0.2rem;">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="text-center" style="font-size:16px;margin-top:1rem;margin-bottom:0rem;">100 Pending</p>
+                                        <div class="search-container"><input type="text" name="search-bar" placeholder="Search..." class="search-input" style="font-size:11px;"><button class="btn btn-light search-btn" type="button"> <i class="fa fa-search"></i></button></div>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding:1px;">
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title" style="font-size:16px;">Issue Name</h4>
+                                                <h6 class="text-muted card-subtitle mb-2" style="font-size:11px;">Created by Ahsun</h6>
+                                                <p class="card-text" style="font-size:11px;">5 Comments</p><a class="card-link" href="#" style="font-size:12px;">Link</a></div>
+                                        </div>
+                                    </div>
+                                </div><div class="row"><div class="col">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title" style="font-size:16px;">Issue Name</h4>
+            <h6 class="text-muted card-subtitle mb-2" style="font-size:11px;">Created by Ahsun</h6>
+            <p class="card-text" style="font-size:11px;">5 Comments</p><a href="#" class="card-link" style="font-size:12px;">Link</a></div>
+    </div>
+</div></div></div><div class="col" style="margin:0.2rem;">
+    <div class="row">
+        <div class="col">
+            <p class="text-center" style="font-size:16px;margin-top:1rem;margin-bottom:0rem;">100 In Progress</p>
+            <div class="search-container"><input type="text" name="search-bar" placeholder="Search..." class="search-input" style="font-size:11px;" /><button class="btn btn-light search-btn" type="button"><i class="fa fa-search"></i></button></div>
+        </div>
+    </div>
+    <div class="row" style="padding:1px;">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-size:16px;">Issue Name</h4>
+                    <h6 class="text-muted card-subtitle mb-2" style="font-size:11px;">Created by Ahsun</h6>
+                    <p class="card-text" style="font-size:11px;">5 Comments</p><a href="#" class="card-link" style="font-size:12px;">Link</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="  font-size:16px;
+">Issue Name</h4>
+                    <h6 class="text-muted card-subtitle mb-2" style="  font-size:11px;
+">Created by Ahsun</h6>
+                    <p class="card-text" style="  font-size:11px;
+">5 Comments</p><a href="#" class="card-link" style="  font-size:12px;
+">Link</a></div>
+            </div>
+        </div>
+    </div>
+</div><div class="col" style="margin:0.2rem;">
+    <div class="row">
+        <div class="col">
+            <p class="text-center" style="font-size:16px;margin-top:1rem;margin-bottom:0rem;">100 Done</p>
+            <div class="search-container"><input type="text" name="search-bar" placeholder="Search..." class="search-input" style="font-size:11px;" /><button class="btn btn-light search-btn" type="button"><i class="fa fa-search"></i></button></div>
+        </div>
+    </div>
+    <div class="row" style="padding:1px;">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-size:16px;">Issue Name</h4>
+                    <h6 class="text-muted card-subtitle mb-2" style="font-size:11px;">Created by Ahsun</h6>
+                    <p class="card-text" style="font-size:11px;">5 Comments</p><a href="#" class="card-link" style="font-size:12px;">Link</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="  font-size:16px;
+">Issue Name</h4>
+                    <h6 class="text-muted card-subtitle mb-2" style="  font-size:11px;
+">Created by Ahsun</h6>
+                    <p class="card-text" style="  font-size:11px;
+">5 Comments</p><a href="#" class="card-link" style="  font-size:12px;
+">Link</a></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="overflow-y:auto;border:groove;border-color:#56c1ba;margin-top:2rem;">
+                        <p class="text-center" style="padding:5px 0px 0px;padding-top:2px;padding-bottom:0;margin:5px 0px 0px;">ProjectBoard</p><div class="datagrid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="background-color:#56c1ba;">Username</th>
+				<th>To Do</th>
+                <th>In Progress</th>
+                <th>Testing</th>
+                <th>Done</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahsun Tariq</td>
+                <td>3</td>
+                <td>2</td>
+                <td>3</td>
+				<td>1</td>
+            </tr>
+			<tr>
+                <td>Pinak Bhalerao</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+				<td>1</td>
+            </tr>
+			<tr>
+                <td>Suraiya Akhter</td>
+                <td>1</td>
+                <td>5</td>
+                <td>2</td>
+				<td>0</td>
+            </tr>
+			<tr>
+                <td>Andrei Kondyrev</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+				<td>3
+				</td>
+            </tr>
+						<tr>
+                <td>Nouman Shafqat</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+				<td>3
+				</td>
+            </tr>
+        </tbody>
+    </table>
+</div></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="assets/img/Sketch3 Suraiya.png" style="max-width:100%;margin-top:0.5rem;overflow-y:auto;border:groove;border-color:#56c1ba;"></div>
+                </div>
+            </div>
+            <div class="col" style="margin:1rem;">
+                <div class="row">
+                    <div class="col" style="overflow-y:auto;border:groove;overflow-y:auto;max-height:200px;border-color:#56c1ba;">
+                        <p class="text-center">Select Team Members</p>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Ahsun Tariq</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Pinak Bhalerao</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Mohammad Nouman Shafqat</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Andrei Kondyrev</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Suraiyya Akhter</label></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row" style="overflow-y:auto;border:groove;overflow-y:auto;max-height:800px;border-color:#56c1ba;margin-top:2rem;">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="row" style="overflow-x:auto;max-height:300px;overflow-y:auto;margin-bottom:1.5rem;">
+                                            <div class="col">
+                                                <p class="text-center">Events Timeline<button class="btn btn-primary" type="button" style="margin-left:2rem;">BUILD</button></p>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <p style="font-size:15px;">Issues</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row" style="overflow-y:auto;height:200px;">
+                                                            <div class="col">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Issue 1</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">Issue 2</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Issue 3</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">Issue 4</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Issue 5</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">Issue 6</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">Issue 7</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13"><label class="form-check-label" for="formCheck-13">Issue 8</label></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <p style="font-size:15px;">Issue Events</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row" style="overflow-y:auto;height:200px;">
+                                                            <div class="col">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-15" style="background-color:#fad839;color:#fad839;"><label class="form-check-label" for="formCheck-15" style="color:#fad839;">Create&nbsp;</label></div>
+                                                                <div
+                                                                    class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-16"><label class="form-check-label" for="formCheck-16" style="color:#28597a;">Label&nbsp;</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-17"><label class="form-check-label" for="formCheck-17" style="color:rgb(25,126,53);">Assign</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-18"><label class="form-check-label" for="formCheck-18" style="color:rgb(96,21,85);">Milestone</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-19"><label class="form-check-label" for="formCheck-19" style="color:rgb(162,41,41);">Comment</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-20"><label class="form-check-label" for="formCheck-20" style="color:rgb(208,143,83);">Add To Column</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-21"><label class="form-check-label" for="formCheck-21" style="color:rgb(215,109,147);">Move Column</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-22"><label class="form-check-label" for="formCheck-22" style="color:rgb(39,185,217);">Close</label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p style="font-size:15px;">Pull Requests</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="overflow-y:auto;height:200px;">
+                                                        <div class="col">
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-23"><label class="form-check-label" for="formCheck-23">PR 1</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-24"><label class="form-check-label" for="formCheck-24">PR 2</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-25"><label class="form-check-label" for="formCheck-25">PR 3</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-26"><label class="form-check-label" for="formCheck-26">PR 4</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-27"><label class="form-check-label" for="formCheck-27">PR 5</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-28"><label class="form-check-label" for="formCheck-28">PR 6</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-29"><label class="form-check-label" for="formCheck-29">PR 7</label></div>
+                                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-30"><label class="form-check-label" for="formCheck-30">PR 8</label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p style="font-size:15px;">Pull Request Events</p>
+                                                            <div class="row" style="overflow-y:auto;height:200px;"><div class="col">
+    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Create</label></div>
+	    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Milestone</label></div>
+	    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Comment</label></div>
+	    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Request Review</label></div>
+	    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Perform Review</label></div>
+	 <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" /><label class="form-check-label" for="formCheck-14">Merge</label></div>
+</div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="width:100%;margin-left:2rem;align-content:center;"><div class="container">
+	<div class="row">
+		<div class="timeline-centered">
+    
+	<article class="timeline-entry">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>January 1 2021</span></time>
+			
+			<div class="timeline-icon bg-warning">
+				<i class="entypo-feather"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2><a href="#">Ahsun Tariq</a> <span>created Issue 1</span></h2>
+				<p>In this issue, we create a simple react form.</p>
+			</div>
+		</div>
+		
+	</article>
+	
+	
+	<article class="timeline-entry left-aligned">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>09:45 AM</span> <span>January 02 2021</span></time>
+			
+			<div class="timeline-icon bg-primary">
+				<i class="entypo-suitcase"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2><a href="#">Suraiya Akther</a> <span>Labelled Issue 1</span></h2>
+				<p><strong>BUG</strong></p>
+			</div>
+		</div>
+		
+	</article>
+	
+	
+	<article class="timeline-entry">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-09T13:22"><span>11:45 AM</span> <span>January 03 2021</span></time>
+			
+			<div class="timeline-icon bg-success">
+				<i class="entypo-location"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2><a href="#">Pinak Bhalarao</a> <span>Assigned Issue 1 to </span><a href="#">Ahsun Tariq</a> </h2>
+				
+				
+				
+			</div>
+		</div>
+		
+	</article>
+	
+	
+	<article class="timeline-entry left-aligned">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>January 04 2021</span></time>
+			
+			<div class="timeline-icon bg-info">
+				<i class="entypo-camera"></i>
+			</div>
+			
+			<div class="timeline-label">
+					<h2><a href="#">Suraiya Akther</a> <span>Added Issue 1 To Milestone 1</span></h2>
+			</div>
+		</div>
+		
+	</article>
+			
+	<article class="timeline-entry">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-09T13:22"><span>11:00 AM</span> <span>January 06 2021</span></time>
+			
+			<div class="timeline-icon bg-danger">
+				<i class="entypo-location"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2><a href="#">Ahsun Tariq</a> <span>commented on Issue 1</span></h2>
+				<p>Thanks for adding this to the milestone!</p>
+			
+			</div>
+		</div>
+		
+	</article>
+		<article class="timeline-entry left-aligned">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>January 07 2021</span></time>
+			
+			<div class="timeline-icon bg-secondary">
+				<i class="entypo-camera"></i>
+			</div>
+			
+			<div class="timeline-label">
+					<h2><a href="#">Ahsun Tariq</a> <span>Added Issue 1 To TODO</span></h2>
+			</div>
+		</div>
+		
+	</article>
+	
+					<article class="timeline-entry">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-09T13:22"><span>11:00 AM</span> <span>January 06 2021</span></time>
+			
+			<div class="timeline-icon bg-primary">
+				<i class="entypo-location"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2><a href="#">Andrei Kondyrev</a> <span>closed Issue 1</span></h2>		
+			</div>
+		</div>
+						</article>
+			
+	<article class="timeline-entry begin">
+	
+		<div class="timeline-entry-inner">
+			
+			<div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+				<i class="entypo-flight"></i>
+			</div>
+			
+		</div>
+		
+	</article>
+			
+
+
+		
+	
+</div>
+	</div>
+</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin:1rem;">
+            <div class="row">
+                <div class="col" style="border:groove;border-color:#56c1ba;width:350px;">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-center">Commits</p>
+                        </div>
+                    </div>
+                    <div class="row" style="overflow-y:auto;overflow-x:auto;height:600px;">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col"><table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+				<th>Commit#</th>
+                <th>Author</th>
+                <th>Message</th>
+				<th>Lines Changed</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+			            <tr>
+
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+			            <tr>
+                
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+			            <tr>
+               
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+			            <tr>
+                
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+			            <tr>
+                
+                <td>d240853...</td>
+                <td>Ahsun Tariq</td>
+				<td>at - create initial repo</td>
+                <td>61</td>
+                <td>Fri Apr 26 11:37:39 2019 +0100</td>
+            </tr>
+           
+        </tbody>
+    </table></div>
+                            </div><div class="row">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	
+	<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Ahsun Tariq', 'Pinak Bhalerao', 'Suraiya Akther', 'Andrei Kondyrev', 'Noman Shafqat'],
+        datasets: [{
+            label: '# of Commits',
+            data: [16, 19, 13, 5, 11],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+<br/>
+<canvas id="pieChart" width="400" height="400"></canvas>
+	<script>
+var ctx = document.getElementById('pieChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Ahsun Tariq', 'Pinak Bhalerao', 'Suraiya Akther', 'Andrei Kondyrev', 'Noman Shafqat'],
+        datasets: [{
+            label: '# of Commits',
+            data: [16, 19, 13, 5, 11],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            hoverOffset: 4
+        }]
+    },
+
+});
+</script>
+</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><img src="assets/img/MicrosoftTeams-image (1).png" style="margin-top:1rem;max-width:100%;overflow-y:auto;"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+</body>
+
+</html>
