@@ -2,7 +2,7 @@
   font:normal 12px/150% Arial, Helvetica, sans-serif;
   background:#fff;
   overflow:hidden;
-  border:1px solid #56c1ba;
+  border:1px solid #34a1eb;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
@@ -19,10 +19,10 @@
 }
 
 .datagrid table thead th {
-  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #56c1ba), color-stop(1, #56c1ba) );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #34a1eb), color-stop(1, #34a1eb) );
   background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
-  background-color:#56c1ba;
+  background-color:#34a1eb;
   color:#FFFFFF;
   font-size:15px;
   font-weight:bold;
@@ -84,11 +84,11 @@
   padding:2px 8px;
   margin:1px;
   color:#FFFFFF;
-  border:1px solid #56c1ba;
+  border:1px solid #34a1eb;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
-  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #56c1ba), color-stop(1, #56c1ba) );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #34a1eb), color-stop(1, #34a1eb) );
   background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
   background-color:#36752D;
