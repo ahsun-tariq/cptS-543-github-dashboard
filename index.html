@@ -315,7 +315,9 @@
                 </div>
               </div>
             </div>
+            
           </div>
+          
           <div class="row">
             <div
               class="col"
@@ -386,7 +388,9 @@
                     </tr>
                   </tbody>
                 </table>
+                
               </div>
+              
             </div>
           </div>
           <div class="row">
@@ -1190,7 +1194,10 @@
                   </div>
                   <div class="row">
                     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+                    <div class="col">
+                      <br/>
+                      <p class="text-center">Commits by Members</p>
+                    </div>
                     <canvas id="myChart" width="400" height="400"></canvas>
                     <script>
                       var ctx = document
@@ -1240,6 +1247,10 @@
                       });
                     </script>
                     <br />
+                    <div class="col">
+                      <br/>
+                      <p class="text-center">Commit Share</p>
+                    </div>
                     <canvas id="pieChart" width="400" height="400"></canvas>
                     <script>
                       var ctx = document
@@ -1281,6 +1292,76 @@
                         },
                       });
                     </script>
+
+<br />
+<div class="col">
+  <br/>
+  <p class="text-center">Commits Per Month</p>
+</div>
+<canvas id="Chart" width="400" height="400"></canvas>
+<script>
+  var ctx = document
+    .getElementById("Chart")
+    .getContext("2d");
+    var lineChart = new Chart(ctx, {
+    type: 'line',
+    data:  {
+  labels: ["Jan", "Feb", "March", "April", "May"],
+  datasets: [
+    {
+    label: "Commits by Ahsun Tariq",
+    data: [2, 5, 8, 12, 16],
+    backgroundColor: 'red',
+    borderColor: 'red',
+  },
+
+  {
+    label: "Commits by Pinak Bhalerao",
+    data: [0, 5, 2, 7, 8],
+    backgroundColor: 'blue',
+    borderColor: 'blue',
+  }
+  ,
+
+  {
+    label: "Commits by Suraiya Akther",
+    data: [1, 2, 5, 11, 12],
+    backgroundColor: 'yellow',
+    borderColor: 'yellow',
+  }
+  ,
+
+  {
+    label: "Commits by Andrei Kondyrev",
+    data: [1, 2, 2, 4, 11],
+    backgroundColor: 'green',
+    borderColor: 'green',
+  }
+  ,
+
+  {
+    label: "Commits by Nouman Shafqat",
+    data: [5, 10, 2, 1, 13],
+    backgroundColor: 'purple',
+    borderColor: 'purple',
+  }
+
+
+]
+},
+    options: {
+      
+  legend: {
+    display: true,
+    position: 'top',
+    labels: {
+      boxWidth: 80,
+      fontColor: 'white'
+    }
+  }
+}
+});
+</script>
                   </div>
                 </div>
               </div>
