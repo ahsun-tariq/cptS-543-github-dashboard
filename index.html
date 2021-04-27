@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Untitled</title>
+    <title>GitHub Dashboard</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/Data-Table.css" />
@@ -22,10 +22,14 @@
   </head>
 
   <body>
+    <script>
+      var repo=""
+    </script>
     <div>
       <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <h4 >GitHub Dashboard</h4>
         <div class="container">
-          <a class="navbar-brand" href="#">GitHub Dashboard</a
+          <a class="navbar-brand" id="title" href="#">Repository</a
           ><button
             class="navbar-toggler"
             data-toggle="collapse"
@@ -44,12 +48,23 @@
                   href="#"
                   >Repository
                 </a>
-                <div class="dropdown-menu" role="menu">
-                  <a class="dropdown-item" role="presentation" href="#"
+                <script>
+
+                  function myfunc(id) {  var el = document.getElementById(id).innerHTML
+                  console.log(el)
+                  repo = el
+                  var title = document.getElementById("title")
+                  title.innerHTML= "Repository: " + repo
+
+                }
+                
+                </script>
+                <div class="dropdown-menu" id="rep" role="menu"  >
+                  <a class="dropdown-item" id="1" role="presentation" href="#" onclick="myfunc(this.id)"
                     >courseTracker</a
-                  ><a class="dropdown-item" role="presentation" href="#"
+                  ><a class="dropdown-item" id="2" role="presentation" href="#" onclick="myfunc(this.id)"
                     >mealPlanner</a
-                  ><a class="dropdown-item" role="presentation" href="#"
+                  ><a class="dropdown-item" id="3" role="presentation" href="#" onclick="myfunc(this.id)"
                     >shoppingGuide</a
                   >
                 </div>
@@ -119,7 +134,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Add React
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
@@ -142,7 +157,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Create Landing Page
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
@@ -151,7 +166,7 @@
                             Created by Ahsun
                           </h6>
                           <p class="card-text" style="font-size: 11px">
-                            5 Comments
+                            2 Comments
                           </p>
                           <a href="#" class="card-link" style="font-size: 12px"
                             >Link</a
@@ -195,7 +210,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Create Profile Page
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
@@ -218,7 +233,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Add React Webpacker
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
@@ -271,7 +286,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Create DB schema
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
@@ -294,7 +309,7 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title" style="font-size: 16px">
-                            Issue Name
+                            Connect MongoDB to Express
                           </h4>
                           <h6
                             class="text-muted card-subtitle mb-2"
