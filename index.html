@@ -23,6 +23,12 @@
 
   <body>
     <script>
+      function buildProjectBoard(id){
+        var ele = document.getElementById(id)
+        ele.style.visibility="visible"
+      }
+    </script>
+    <script>
       var repo=""
     </script>
     <div>
@@ -408,7 +414,16 @@
           </div>
           <div class="row">
             <div class="col">
-              <img
+              <br/>
+              <button
+                              class="btn btn-primary"
+                              type="button"
+                              style="margin-left: 11rem; margin-right: 10rem;"
+                              onClick="buildProjectBoard('projectBoard')"
+                            >
+                              Build Project Board
+                            </button>
+              <img id="projectBoard"
                 src="assets/img/Sketch3 Suraiya.png"
                 style="
                   max-width: 100%;
@@ -416,6 +431,7 @@
                   overflow-y: auto;
                   border: groove;
                   border-color: #34a1eb;
+                  visibility: hidden;
                 "
               />
             </div>
