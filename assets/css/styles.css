@@ -14,4 +14,9 @@
 
 body {
   background-color: rgb(12, 13, 14);
+  color: white;
+}
+
+.cards {
+  background-color: black;
 }
